@@ -59,6 +59,34 @@
   }
 }
 
+.font-weight-100 {
+  font-weight: 100;
+}
+.font-weight-300 {
+  font-weight: 300;
+}
+.font-weight-400 {
+  font-weight: 400;
+}
+.font-weight-500 {
+  font-weight: 500;
+}
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.vert {
+  color: #09BC8A;
+}
+
+.vert-dark {
+  color: #004346;
+}
+
+.leading-0 {
+  line-height: 0px;
+}
+
 @layer base {
   * {
     @apply border-border;

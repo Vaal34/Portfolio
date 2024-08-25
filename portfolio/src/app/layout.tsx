@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import ParticlesDemo from "@/animations/particle";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr en">
-      <body className={inter.className}>{children}</body>
+      <body className={`bg-[#E5ECF4] ${inter.className}`}>{children}</body>
     </html>
   );
 }
