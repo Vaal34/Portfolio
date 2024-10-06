@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
 import Particles from "@/components/magicui/particles";
 
@@ -15,11 +15,11 @@ const ParticlesDemo = () => {
 
   return (
     <Particles
-    className="absolute inset-0"
-    quantity={700}
-    ease={20}
-    color={color}
-    refresh
+      className="absolute inset-0"
+      quantity={700}
+      ease={20}
+      color={color}
+      refresh
     />
   );
 };

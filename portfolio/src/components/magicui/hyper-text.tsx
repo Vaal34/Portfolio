@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion, Variants } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
 
 import { cn } from "@/lib/utils";
 
@@ -53,8 +53,8 @@ export default function HyperText({
                 ? l
                 : i <= interations.current
                   ? text[i]
-                  : alphabets[getRandomInt(26)],
-            ),
+                  : alphabets[getRandomInt(26)]
+            )
           );
           interations.current = interations.current + 0.1;
         } else {
@@ -62,14 +62,14 @@ export default function HyperText({
           clearInterval(interval);
         }
       },
-      duration / (text.length * 10),
+      duration / (text.length * 10)
     );
     // Clean up interval on unmount
     return () => clearInterval(interval);
   }, [text, duration, trigger, animateOnLoad]);
 
   return (
-    <div className="flex cursor-default scale-100">
+    <div className="flex scale-100 cursor-default">
       <AnimatePresence mode="sync">
         {displayText.map((letter, i) => (
           <motion.h1
