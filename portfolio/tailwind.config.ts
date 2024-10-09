@@ -1,3 +1,4 @@
+import {nextui} from '@nextui-org/theme';
 import type { Config } from "tailwindcss";
 
 const config = {
@@ -7,6 +8,7 @@ const config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@nextui-org/theme/dist/components/[object Object].js"
   ],
   prefix: "",
   theme: {
@@ -19,14 +21,14 @@ const config = {
     },
     extend: {
       boxShadow: {
-        'custom': '0px 4px 6px 0px rgba(0,0,0,0.2)',
+        custom: "0px 4px 6px 0px rgba(0,0,0,0.2)",
       },
       colors: {
         text: "#0b0b10",
         background: "#f6f5f8",
         primary: "#3b25e9",
         secondary: "#8e80f3",
-        accent: "#82f452",
+        accent: "#DBFE60",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -82,7 +84,7 @@ const config = {
   corePlugins: {
     aspectRatio: false,
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require('tailwindcss-animate'), nextui()],
 } satisfies Config;
 
 export default config;

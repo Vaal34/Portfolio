@@ -55,17 +55,17 @@
     --secondary-900: #0f082b;
     --secondary-950: #070416;
 
-    --accent-50: #eefde7;
-    --accent-100: #ddfccf;
-    --accent-200: #baf99f;
-    --accent-300: #98f66f;
-    --accent-400: #75f33f;
-    --accent-500: #53f00f;
-    --accent-600: #42c00c;
-    --accent-700: #329009;
-    --accent-800: #216006;
-    --accent-900: #113003;
-    --accent-950: #081802;
+    --accent-50: #f9ffe6;
+    --accent-100: #f4ffcc;
+    --accent-200: #e9fe9a;
+    --accent-300: #ddfe67;
+    --accent-400: #d2fe34;
+    --accent-500: #c7fe01;
+    --accent-600: #9fcb01;
+    --accent-700: #779801;
+    --accent-800: #506501;
+    --accent-900: #283300;
+    --accent-950: #141900;
   }
 
   .font-weight-100 {
