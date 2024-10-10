@@ -44,16 +44,18 @@ function Etude() {
       </div>
       <div
         className={`absolute inset-0 flex py-8 transition-transform duration-500 ease-in-out ${
-          activeEtude === "FULLSTACK" ? "translate-x-1/2" : "-translate-x-1/2"
+          activeEtude === "BTS" ? "translate-x-1/2" : "-translate-x-1/2"
         }`}
       >
         <div className="flex w-1/2 cursor-pointer flex-col items-start justify-center bg-background p-8 text-primary">
-          <span
-            className="bg-accent text-left hover:underline"
-            onClick={() => setActiveEtude("BTS")}
-          >
-            go to FULLSTACK {"\u2192"}
-          </span>
+          <div className="relative cursor-pointer before:absolute before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] before:bg-accent before:transition-transform before:duration-500 before:ease-in-out hover:before:scale-y-100">
+            <span
+              className="relative text-left"
+              onClick={() => setActiveEtude("FULLSTACK")}
+            >
+              go to FULLSTACK {"\u2192"}
+            </span>
+          </div>
           <h1 className="break-words text-left text-7xl font-medium">
             BTS ERPC
           </h1>
@@ -67,12 +69,14 @@ function Etude() {
           </a>
         </div>
         <div className="flex w-1/2 cursor-pointer flex-col items-end justify-center bg-background p-8 text-primary">
-          <span
-            className="bg-accent text-right hover:underline"
-            onClick={() => setActiveEtude("FULLSTACK")}
-          >
-            {"\u2190"} go to BTS ERPC
-          </span>
+          <div className="relative cursor-pointer before:absolute before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] before:bg-accent before:transition-transform before:duration-500 before:ease-in-out hover:before:scale-y-100">
+            <span
+              className="relative text-left"
+              onClick={() => setActiveEtude("BTS")}
+            >
+              go to BTS {"\u2190"}
+            </span>
+          </div>
           <h1 className="break-words text-right text-7xl font-medium">
             FULL STACK
           </h1>

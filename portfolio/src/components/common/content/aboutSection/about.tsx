@@ -4,6 +4,7 @@ import { VelocityScroll } from "@/components/magicui/scroll-based-velocity";
 import { useEffect, useState } from "react";
 import APropos from "./aPropros";
 import Etude from "./etude";
+import Technologies from "./techno";
 
 function About() {
   const [activeTab, setActiveTab] = useState("à Propos");
@@ -54,8 +55,9 @@ function About() {
           </nav>
         </div>
         <div className="size-full">
-          {activeTab === "à Propos" && <APropos />}
-          {activeTab === "étude & formations" && <Etude />}
+            {activeTab === "à Propos" && <APropos />}
+            {activeTab === "étude & formations" && <Etude />}
+            {activeTab === "Technologies" && <Technologies />}
         </div>
         <div className="">
           <VelocityScroll

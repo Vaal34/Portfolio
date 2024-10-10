@@ -3,7 +3,7 @@ function APropos() {
     <div className="pt-9 text-justify text-background">
       <p className="mb-4 bg-background px-9 py-6 text-primary shadow-lg transition-all hover:scale-[101%]">
         Passionné par le développement logiciel, je suis diplômé de la{" "}
-        <strong>Holberton School</strong>. Avant de commencer cette aventure,
+        <strong className="bg-accent">Holberton School</strong>. Avant de commencer cette aventure,
         j'ai travaillé comme <strong>opérateur de presse offset</strong>, ce qui
         m'a permis de développer des compétences en travail d'équipe, gestion de
         clientèle, et en utilisation des outils Adobe comme InDesign et
