@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr en">
+    <html lang="fr">
       <ActiveContentProvider>
         <body className={`${inter.className} hide-scrollbar bg-background`}>
           {children}
