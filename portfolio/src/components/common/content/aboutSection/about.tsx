@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import APropos from "./aPropros";
 import Etude from "./etude";
 import Technologies from "./techno";
+import Image from "next/image";
 
 function About() {
   const [activeTab, setActiveTab] = useState("à Propos");
@@ -24,7 +25,7 @@ function About() {
   return (
     <div className="flex size-full bg-primary shadow-custom">
       <div className="w-1/3 p-9">
-        <img
+        <Image
           src="https://avatars.githubusercontent.com/u/113857350?v=4"
           alt="Valentin Melia"
           className="h-full object-cover"
