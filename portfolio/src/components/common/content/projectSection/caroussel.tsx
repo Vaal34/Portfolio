@@ -175,7 +175,7 @@ const cards: CardType[] = [
     github: "https://github.com/Vaal34/PreventionRisquesNaturels",
   },
   {
-    url: "/imgs/abstract/4.jpg",
+    url: "",
     title: "A suivre...",
     id: 4,
     text: "",
