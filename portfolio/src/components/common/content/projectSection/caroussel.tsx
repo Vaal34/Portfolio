@@ -28,7 +28,7 @@ const Card = ({ card }: { card: CardType }) => {
   return (
     <div
       key={card.id}
-      className="group relative h-[400px] w-[400px] overflow-hidden bg-primary"
+      className="group relative h-[500px] w-[300px] md:h-[400px] md:w-[400px] overflow-hidden bg-primary"
     >
       <div
         style={{
@@ -40,7 +40,7 @@ const Card = ({ card }: { card: CardType }) => {
       ></div>
       <div className="absolute inset-0 z-10 grid text-accent duration-300 hover:bg-secondary/60 hover:text-primary hover:backdrop-blur-lg">
         <div className="flex h-full items-start justify-between p-8">
-          <p className="background-blur text-5xl font-black uppercase">
+          <p className="background-blur text-4xl md:text-5xl font-black uppercase">
             {card.title}
           </p>
           <div className="flex flex-col gap-1">
@@ -54,21 +54,21 @@ const Card = ({ card }: { card: CardType }) => {
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8"
+                  className="h-6 w-6 md:h-8 md:w-8"
                 >
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                   <g
                     id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></g>
                   <g id="SVGRepo_iconCarrier">
                     {" "}
                     <path
                       d="M14 12C14 14.7614 11.7614 17 9 17H7C4.23858 17 2 14.7614 2 12C2 9.23858 4.23858 7 7 7H7.5M10 12C10 9.23858 12.2386 7 15 7H17C19.7614 7 22 9.23858 22 12C22 14.7614 19.7614 17 17 17H16.5"
                       stroke=" #3b25e9"
-                      stroke-width="2"
-                      stroke-linecap="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                     ></path>{" "}
                   </g>
                 </svg>
@@ -86,13 +86,13 @@ const Card = ({ card }: { card: CardType }) => {
                   xmlns="http://www.w3.org/2000/svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                   fill="#000000"
-                  className="h-8 w-8"
+                  className="h-6 w-6 md:h-8 md:w-8"
                 >
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                   <g
                     id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></g>
                   <g id="SVGRepo_iconCarrier">
                     {" "}
@@ -101,9 +101,9 @@ const Card = ({ card }: { card: CardType }) => {
                     <g
                       id="Page-1"
                       stroke="none"
-                      stroke-width="1"
+                      strokeWidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       {" "}
                       <g

@@ -55,7 +55,7 @@ function FormContact() {
           className="flex h-full w-full flex-col items-center justify-evenly"
         >
           <div className="relative cursor-pointer before:absolute before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.20] before:bg-secondary before:transition-transform before:duration-500 before:ease-in-out hover:before:scale-y-100">
-            <h1 className="relative text-6xl font-thin italic text-primary">
+            <h1 className="relative text-3xl md:text-6xl font-thin italic text-primary">
               {success ? "Bien Envoyé !" : "Contactez-moi !"}
             </h1>
           </div>

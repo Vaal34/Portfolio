@@ -12,7 +12,7 @@ function Navbar() {
             to="projects"
             smooth={true}
             duration={500}
-            className="font-weight-300 cursor-pointer text-4xl uppercase transition-all duration-200 hover:text-[--accent-600]"
+            className="font-weight-300 cursor-pointer text-xl md:text-4xl uppercase transition-all duration-200 hover:text-[--accent-600]"
           >
             PROJETS
           </Link>
@@ -20,7 +20,7 @@ function Navbar() {
             to="about"
             smooth={true}
             duration={500}
-            className="font-weight-300 cursor-pointer text-4xl uppercase transition-all duration-200 hover:text-[--accent-600]"
+            className="font-weight-300 cursor-pointer text-xl md:text-4xl uppercase transition-all duration-200 hover:text-[--accent-600]"
           >
             À PROPOS
           </Link>
@@ -28,7 +28,7 @@ function Navbar() {
             to="contact"
             smooth={true}
             duration={500}
-            className="font-weight-300 cursor-pointer text-4xl transition-all duration-200 hover:text-[--accent-600]"
+            className="font-weight-300 cursor-pointer text-xl md:text-4xl transition-all duration-200 hover:text-[--accent-600]"
           >
             CONTACT
           </Link>

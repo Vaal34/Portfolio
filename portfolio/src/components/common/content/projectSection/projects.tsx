@@ -19,7 +19,7 @@ function Projects() {
         style={{ y, scale }}
       >
         <div className="relative cursor-pointer before:absolute before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.30] before:bg-accent before:transition-transform before:duration-500 before:ease-in-out hover:before:scale-y-100">
-          <h1 className="relative text-8xl font-bold text-primary">Projects</h1>
+          <h1 className="relative text-6xl md:text-8xl font-bold text-primary">Projects</h1>
         </div>
       </motion.div>
       <HorizontalScrollCarousel />
