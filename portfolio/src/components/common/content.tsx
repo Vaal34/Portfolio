@@ -1,8 +1,8 @@
 "use client";
 
 import About from "./content/aboutSection/about";
-import Contact from "./content/contact";
-import Projects from "./content/projects";
+import Contact from "./content/Contact/contact";
+import Projects from "./content/projectSection/projects";
 
 function Content() {
   return (
@@ -13,16 +13,10 @@ function Content() {
       >
         <About />
       </section>
-      <section
-        id="projects"
-        className="relative h-screen overflow-hidden bg-background p-6"
-      >
+      <section id="projects" className="bg-background">
         <Projects />
       </section>
-      <section
-        id="contact"
-        className="relative h-screen overflow-hidden bg-background p-6"
-      >
+      <section id="contact" className="relative h-screen overflow-hidden">
         <Contact />
       </section>
     </>

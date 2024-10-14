@@ -55,9 +55,9 @@ function About() {
           </nav>
         </div>
         <div className="size-full">
-            {activeTab === "à Propos" && <APropos />}
-            {activeTab === "étude & formations" && <Etude />}
-            {activeTab === "Technologies" && <Technologies />}
+          {activeTab === "à Propos" && <APropos />}
+          {activeTab === "étude & formations" && <Etude />}
+          {activeTab === "Technologies" && <Technologies />}
         </div>
         <div className="">
           <VelocityScroll
