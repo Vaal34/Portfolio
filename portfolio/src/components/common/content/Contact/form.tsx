@@ -48,7 +48,7 @@ function FormContact() {
       <MagicCard
         gradientColor="#3b25e9"
         gradientOpacity={0.1}
-        className="flex h-3/4 w-2/3 justify-center bg-background shadow-lg"
+        className="flex h-3/4 w-4/5 md:w-2/3 justify-center bg-background shadow-lg"
       >
         <form
           onSubmit={handleSubmit}
