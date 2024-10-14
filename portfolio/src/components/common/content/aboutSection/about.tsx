@@ -26,9 +26,11 @@ function About() {
     <div className="flex size-full bg-primary shadow-custom">
       <div className="w-1/3 p-9">
         <Image
-          src="https://avatars.githubusercontent.com/u/113857350?v=4"
+          src={"/moi.jpg"}
           alt="Valentin Melia"
           className="h-full object-cover"
+          width={500}
+          height={500}
         />
       </div>
       <div className="flex w-2/3 flex-col justify-between pb-9 pr-9 pt-9">
