@@ -7,12 +7,14 @@ function Contact() {
 
   return (
     <div className="h-svh w-full bg-primary">
-      <div className="flex h-4/6 items-center justify-center">
+      <div className="flex h-5/6 md:h-4/6 items-center justify-center">
         <FormContact />
       </div>
-      <div className="h-2/6">
-        <RevealLinks />
-        <div className="h-full bg-accent text-center text-primary">
+      <div className="h-1/6 md:h-2/6">
+        <div className="hidden md:block">
+          <RevealLinks />
+        </div>
+        <div className="h-full flex flex-col items-center justify-center md:block bg-accent text-center text-primary">
           <p>©{year} Valentin Melia. Tous droits réservés.</p>
           <p>
             Conçu et développé par{" "}
