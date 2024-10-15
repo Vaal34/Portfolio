@@ -17,6 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <ActiveContentProvider>
         <body className={`${inter.className} hide-scrollbar bg-background`}>
           {children}
