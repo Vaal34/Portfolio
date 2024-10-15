@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://portfolio-vaal34s-projects.vercel.app/",
     images: [
       {
-        url: "/favicon.ico",
+        url: "https://portfolio-vaal34s-projects.vercel.app/favicon.ico",
         width: 800,
         height: 600,
         alt: "Description de l'image",
