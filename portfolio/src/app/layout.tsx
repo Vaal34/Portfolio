@@ -8,6 +8,20 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Valentin Melia",
   description: "Portfolio de Valentin Melia",
+  openGraph: {
+    title: "Valentin Melia",
+    description: "Portfolio de Valentin Melia",
+    url: "https://portfolio-vaal34s-projects.vercel.app/",
+    images: [
+      {
+        url: "/favicon.ico",
+        width: 800,
+        height: 600,
+        alt: "Description de l'image",
+      },
+    ],
+    siteName: "Valentin Melia",
+  },
 };
 
 export default function RootLayout({
