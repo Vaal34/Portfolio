@@ -6,7 +6,7 @@ function Contact() {
   let year = d.getFullYear();
 
   return (
-    <div className="h-svh w-full bg-primary">
+    <div className="h-screen w-full bg-primary">
       <div className="flex h-5/6 md:h-4/6 items-center justify-center">
         <FormContact />
       </div>
