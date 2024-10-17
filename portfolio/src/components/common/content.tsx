@@ -9,7 +9,7 @@ function Content() {
     <>
       <section
         id="about"
-        className="relative h-full md:h-screen overflow-hidden bg-background"
+        className="relative h-full lg:h-screen overflow-hidden bg-background"
       >
         <About />
       </section>
