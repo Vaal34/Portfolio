@@ -82,18 +82,21 @@ function Etude() {
             </div>
           </div>
           <p className="text-justify leading-relaxed text-background w-11/12 p-3">
-            J'ai obtenu un diplôme en <strong> développement full-stack</strong> à
-            la <strong> Holberton School</strong>, où j'ai acquis des compétences
-            avancées en <strong> développement logiciel</strong>. Cette formation
-            immersive m'a permis de maîtriser des technologies modernes telles que
-            <strong> HTML</strong>, <strong> CSS</strong>,
-            <strong> JavaScript</strong>,<strong> React</strong>,
-            <strong> Python</strong>, <strong> C</strong>, et <strong>MySQL</strong>
-            . J'ai également développé des <strong> soft skills</strong>
-            essentielles, comme l'<strong> autonomie</strong>, la
-            <strong> collaboration</strong>, et la
-            <strong> gestion du temps</strong>. Ce programme intensif m'a préparé à
-            relever des défis techniques et à travailler efficacement en équipe.
+          J'ai obtenu un diplôme en <strong>développement full-stack</strong> à
+          la <strong>Holberton School</strong> ainsi que le diplôme{" "}
+          <strong>RNCP niveau 6</strong> en{" "}
+          <strong>Conception et Développement d'Applications</strong>, où j'ai
+          acquis des compétences avancées en{" "}
+          <strong>développement logiciel</strong>. Cette formation immersive m'a
+          permis de maîtriser des technologies modernes telles que{" "}
+          <strong>HTML</strong>, <strong>CSS</strong>,
+          <strong>JavaScript</strong>, <strong>React</strong>,{" "}
+          <strong>Python</strong>, <strong>C</strong>, et
+          <strong>MySQL</strong>. J'ai également développé des{" "}
+          <strong>soft skills</strong> essentielles, comme l'
+          <strong>autonomie</strong>, la <strong>collaboration</strong>, et la
+          <strong>gestion du temps</strong>. Ce programme intensif m'a préparé à
+          relever des défis techniques et à travailler efficacement en équipe.
           </p>
         </div>
       </motion.div>

@@ -9,8 +9,9 @@ function Etude() {
     <div className="relative flex h-full overflow-hidden py-2">
       <div className="w-1/2 p-9">
         <p className="text-justify leading-relaxed text-background">
-          J'ai obtenu un <strong> BTS ERPC</strong>, une formation qui m'a permis
-          de développer des compétences polyvalentes dans les domaines de la
+          J'ai obtenu un <strong> BTS ERPC</strong>, une formation qui m'a
+          permis de développer des compétences polyvalentes dans les domaines de
+          la
           <strong className="font-semibold"> communication</strong>, de la
           <strong> gestion de projet</strong>, et de la
           <strong> création graphique</strong>. Ce cursus m'a offert une
@@ -28,17 +29,20 @@ function Etude() {
       </div>
       <div className="w-1/2 p-9">
         <p className="text-justify leading-relaxed text-background">
-          J'ai obtenu un diplôme en <strong> développement full-stack</strong> à
-          la <strong> Holberton School</strong>, où j'ai acquis des compétences
-          avancées en <strong> développement logiciel</strong>. Cette formation
-          immersive m'a permis de maîtriser des technologies modernes telles que
-          <strong> HTML</strong>, <strong> CSS</strong>,
-          <strong> JavaScript</strong>,<strong> React</strong>,
-          <strong> Python</strong>, <strong> C</strong>, et <strong>MySQL</strong>
-          . J'ai également développé des <strong> soft skills</strong>
-          essentielles, comme l'<strong> autonomie</strong>, la
-          <strong> collaboration</strong>, et la
-          <strong> gestion du temps</strong>. Ce programme intensif m'a préparé à
+          J'ai obtenu un diplôme en <strong>développement full-stack</strong> à
+          la <strong>Holberton School</strong> ainsi que le diplôme{" "}
+          <strong>RNCP niveau 6</strong> en{" "}
+          <strong>Conception et Développement d'Applications</strong>, où j'ai
+          acquis des compétences avancées en{" "}
+          <strong>développement logiciel</strong>. Cette formation immersive m'a
+          permis de maîtriser des technologies modernes telles que{" "}
+          <strong>HTML</strong>, <strong>CSS</strong>,
+          <strong>JavaScript</strong>, <strong>React</strong>,{" "}
+          <strong>Python</strong>, <strong>C</strong>, et
+          <strong>MySQL</strong>. J'ai également développé des{" "}
+          <strong>soft skills</strong> essentielles, comme l'
+          <strong>autonomie</strong>, la <strong>collaboration</strong>, et la
+          <strong>gestion du temps</strong>. Ce programme intensif m'a préparé à
           relever des défis techniques et à travailler efficacement en équipe.
         </p>
       </div>
