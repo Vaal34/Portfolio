@@ -33,6 +33,7 @@ function FormContact() {
 
       if (result.success) {
         setSuccess(true);
+        console.log(result);
       } else {
         setError("Une erreur s'est produite. Veuillez réessayer.");
       }

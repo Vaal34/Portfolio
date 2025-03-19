@@ -11,10 +11,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Valentin Melia",
     description: "Portfolio de Valentin Melia",
-    url: "https://portfolio-vaal34s-projects.vercel.app/",
+    url: "https://www.valentinmelia.com/",
     images: [
       {
-        url: "https://portfolio-vaal34s-projects.vercel.app/favicon.ico",
+        url: "https://www.valentinmelia.com/favicon.ico",
         width: 800,
         height: 600,
         alt: "Description de l'image",
