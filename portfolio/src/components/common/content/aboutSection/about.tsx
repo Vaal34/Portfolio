@@ -91,7 +91,7 @@ function About() {
               <div className="sm:hidden">
                 <EtudeSmallDevice />
               </div>
-              <div className="hidden sm:block">
+              <div className="hidden sm:block h-full">
                 <Etude />
               </div>
             </>
