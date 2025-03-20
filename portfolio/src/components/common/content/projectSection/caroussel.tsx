@@ -178,7 +178,7 @@ const cards: CardType[] = [
     url: "/tfc.jpg",
     title: "Stage TFC",
     id: 4,
-    text: "Création d'une application sur mesure pour le Toulouse Football Club, conçue pour optimiser la gestion des données des joueurs du centre de formation. Ce projet a nécessité une réflexion approfondie sur la structuration des données et leur accessibilité pour les entraîneurs et analystes. Développé en Python (Flask, SQLAlchemy) et JavaScript (TailwindCSS), il m'a permis de mettre en pratique mes compétences en conception de bases de données, en développement d'interfaces ergonomiques et en gestion de la performance des applications web.",
+    text: "Développement d'une application pour le Toulouse Football Club, optimisant la gestion des données des joueurs du centre de formation. Conçu en Python (Flask, SQLAlchemy) et JavaScript (TailwindCSS), ce projet m'a permis de structurer des données, créer des interfaces ergonomiques et optimiser la performance web.",
   },
   {
     url: "",
