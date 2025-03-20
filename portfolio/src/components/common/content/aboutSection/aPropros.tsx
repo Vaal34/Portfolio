@@ -12,7 +12,7 @@ function APropos() {
         compétences en <strong>rigueur, précision, travail d'équipe et gestion client</strong>,
         ainsi qu'une maîtrise des outils Adobe comme <strong>InDesign et Illustrator</strong>.
         Aujourd'hui, en tant que <strong>développeur fullstack</strong>, j'aime concevoir des
-        <strong>solutions performantes et intuitives</strong> en mettant l'accent sur
+        <strong> solutions performantes et intuitives</strong> en mettant l'accent sur
         <strong>l'expérience utilisateur</strong>. J'ai réalisé plusieurs projets variés,
         notamment dans <strong>l'e-commerce et la gestion de données</strong>, en utilisant des
         technologies modernes comme <strong>React, Next.js, Node.js, Python et Tailwind</strong>.
