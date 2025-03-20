@@ -40,10 +40,10 @@ function About() {
               <Download className="absolute left-1/2 top-1/2 h-6 w-6 -translate-x-1/2 -translate-y-1/2 text-primary" />
             </div>
           </Pointer>
-          <a href="cv.pdf" download="Melia Valentin - Developpeur Fullstack">
+          <a href="Melia Valentin - Developpeur Fullstack.pdf" download="Melia Valentin - Developpeur Fullstack">
             <Image
               src="/pdf.jpg"
-              alt="cv"
+              alt="Melia Valentin - Developpeur Fullstack"
               className="size-full object-cover object-left blur-sm"
               width={1000}
               height={1000}

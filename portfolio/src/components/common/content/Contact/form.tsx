@@ -129,7 +129,7 @@ function FormContact() {
                   )}
                 </button>
                 <a 
-                  href="/cv.pdf" 
+                  href="Melia Valentin - Developpeur Fullstack.pdf" 
                   download="Melia Valentin - Developpeur Fullstack"
                   className="gap-4 flex w-full cursor-pointer items-center justify-between bg-primary px-3 py-2 font-mono text-white shadow-xl duration-500 hover:scale-105 hover:bg-secondary text-center"
                 >
